@@ -19,7 +19,7 @@ L Interface_USB:CP2102N-A01-GQFN24 U2
 U 1 1 5D1E5D44
 P 5050 3700
 F 0 "U2" H 5050 4900 50  0000 C CNN
-F 1 "CP2102N-A01-GQFN24" H 5050 4800 50  0000 C CNN
+F 1 "CP2102N" H 5050 4800 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 5500 2900 50  0001 L CNN
 F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 5100 2650 50  0001 C CNN
 	1    5050 3700
@@ -516,9 +516,9 @@ Wire Wire Line
 	8300 4750 8300 4850
 Text GLabel 8200 4450 0    50   Input ~ 0
 U_CTS
-Text GLabel 8200 3200 0    50   Input ~ 0
-U_RXD
 Text GLabel 8200 5050 0    50   Input ~ 0
+U_RXD
+Text GLabel 8200 3200 0    50   Input ~ 0
 U_TXD
 Text GLabel 8200 3800 0    50   Input ~ 0
 U_DTR
@@ -526,9 +526,9 @@ Text GLabel 9150 4450 2    50   Input ~ 0
 CTS
 Text GLabel 9150 3800 2    50   Input ~ 0
 DTR
-Text GLabel 9150 3200 2    50   Input ~ 0
-RXD
 Text GLabel 9150 5050 2    50   Input ~ 0
+RXD
+Text GLabel 9150 3200 2    50   Input ~ 0
 TXD
 Text GLabel 7000 2150 2    50   Input ~ 0
 VIO
@@ -740,4 +740,43 @@ Wire Wire Line
 	6600 1950 6600 1850
 Wire Wire Line
 	6750 2150 7000 2150
+$Comp
+L Connector:USB_B_Micro J22
+U 1 1 5D82E0EF
+P 2600 4100
+F 0 "J22" H 2655 4567 50  0000 C CNN
+F 1 "USB_B_Micro" H 2655 4476 50  0000 C CNN
+F 2 "test-footprint:USB_Micro-B_Wuerth_629105150521_usb_lines_only" H 2750 4050 50  0001 C CNN
+F 3 "~" H 2750 4050 50  0001 C CNN
+	1    2600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3900 3000 3900
+Wire Wire Line
+	3000 3900 3000 3550
+Wire Wire Line
+	3000 3550 3650 3550
+Wire Wire Line
+	3650 3550 3650 3900
+Connection ~ 3650 3900
+Wire Wire Line
+	2500 4500 2500 4650
+Wire Wire Line
+	2500 4650 2600 4650
+Connection ~ 3200 4650
+Wire Wire Line
+	2600 4500 2600 4650
+Connection ~ 2600 4650
+Wire Wire Line
+	2600 4650 3200 4650
+NoConn ~ 2900 4300
+Text GLabel 3000 4100 1    50   Input ~ 0
+D+
+Text GLabel 3000 4200 3    50   Input ~ 0
+D-
+Wire Wire Line
+	2900 4100 3000 4100
+Wire Wire Line
+	2900 4200 3000 4200
 $EndSCHEMATC
