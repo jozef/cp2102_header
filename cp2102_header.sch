@@ -161,11 +161,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 4650 5050 4650
 Connection ~ 5050 4650
-Wire Wire Line
-	3200 4500 3200 4650
-Wire Wire Line
-	3200 4650 3300 4650
-Connection ~ 3300 4650
 NoConn ~ 3600 4300
 $Comp
 L Device:R_Small R31
@@ -521,9 +516,9 @@ Wire Wire Line
 	8300 4750 8300 4850
 Text GLabel 8200 4450 0    50   Input ~ 0
 U_CTS
-Text GLabel 8200 5050 0    50   Input ~ 0
-U_RXD
 Text GLabel 8200 3200 0    50   Input ~ 0
+U_RXD
+Text GLabel 8200 5050 0    50   Input ~ 0
 U_TXD
 Text GLabel 8200 3800 0    50   Input ~ 0
 U_DTR
@@ -531,21 +526,21 @@ Text GLabel 9150 4450 2    50   Input ~ 0
 CTS
 Text GLabel 9150 3800 2    50   Input ~ 0
 DTR
-Text GLabel 9150 5050 2    50   Input ~ 0
-RXD
 Text GLabel 9150 3200 2    50   Input ~ 0
+RXD
+Text GLabel 9150 5050 2    50   Input ~ 0
 TXD
 Text GLabel 7000 2150 2    50   Input ~ 0
 VIO
 $Comp
 L power:+3.3V #PWR0110
 U 1 1 5D23C238
-P 6850 1800
-F 0 "#PWR0110" H 6850 1650 50  0001 C CNN
-F 1 "+3.3V" H 6865 1973 50  0000 C CNN
-F 2 "" H 6850 1800 50  0001 C CNN
-F 3 "" H 6850 1800 50  0001 C CNN
-	1    6850 1800
+P 6600 1850
+F 0 "#PWR0110" H 6600 1700 50  0001 C CNN
+F 1 "+3.3V" H 6615 2023 50  0000 C CNN
+F 2 "" H 6600 1850 50  0001 C CNN
+F 3 "" H 6600 1850 50  0001 C CNN
+	1    6600 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -697,45 +692,6 @@ Text GLabel 3750 4200 3    50   Input ~ 0
 D-
 Text GLabel 3750 4100 1    50   Input ~ 0
 D+
-$Comp
-L Device:R_Small R93
-U 1 1 5D25A783
-P 6600 2000
-F 0 "R93" V 6500 2000 50  0000 C CNN
-F 1 "0" V 6600 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6600 2000 50  0001 C CNN
-F 3 "~" H 6600 2000 50  0001 C CNN
-	1    6600 2000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R95
-U 1 1 5D25A871
-P 6600 2300
-F 0 "R95" V 6500 2300 50  0000 C CNN
-F 1 "0" V 6600 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6600 2300 50  0001 C CNN
-F 3 "~" H 6600 2300 50  0001 C CNN
-	1    6600 2300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6600 2150 7000 2150
-Wire Wire Line
-	6600 2450 6600 2400
-Wire Wire Line
-	6600 2450 6850 2450
-Wire Wire Line
-	6600 1900 6600 1850
-Wire Wire Line
-	6600 1850 6850 1850
-Wire Wire Line
-	6600 2100 6600 2150
-Connection ~ 6600 2150
-Wire Wire Line
-	6600 2150 6600 2200
-Wire Wire Line
-	6850 1850 6850 1800
 Wire Wire Line
 	6850 2450 6850 2400
 Text GLabel 5800 4200 1    50   Input ~ 0
@@ -760,4 +716,28 @@ F 3 "~" H 3750 3900 50  0001 C CNN
 	1    3750 3900
 	0    1    1    0   
 $EndComp
+Connection ~ 3300 4650
+Wire Wire Line
+	3200 4650 3300 4650
+Wire Wire Line
+	3200 4500 3200 4650
+$Comp
+L Jumper:SolderJumper_3_Open JP9
+U 1 1 5D424CE0
+P 6600 2150
+F 0 "JP9" V 6646 2218 50  0000 L CNN
+F 1 "SJMP" V 6555 2218 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6600 2150 50  0001 C CNN
+F 3 "~" H 6600 2150 50  0001 C CNN
+	1    6600 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 2450 6600 2450
+Wire Wire Line
+	6600 2450 6600 2350
+Wire Wire Line
+	6600 1950 6600 1850
+Wire Wire Line
+	6750 2150 7000 2150
 $EndSCHEMATC
