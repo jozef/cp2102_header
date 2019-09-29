@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:cp2102_header-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -705,8 +706,8 @@ L Device:Polyfuse_Small F2
 U 1 1 5D2829E5
 P 3750 3900
 F 0 "F2" V 3545 3900 50  0000 C CNN
-F 1 "0.5A" V 3636 3900 50  0000 C CNN
-F 2 "Fuse:Fuse_1812_4532Metric" H 3800 3700 50  0001 L CNN
+F 1 ".25-.5A" V 3636 3900 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3800 3700 50  0001 L CNN
 F 3 "~" H 3750 3900 50  0001 C CNN
 	1    3750 3900
 	0    1    1    0   
