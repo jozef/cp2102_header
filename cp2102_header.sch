@@ -544,24 +544,24 @@ F 3 "" H 6850 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C21
+L Device:C_Small C21
 U 1 1 5D23E753
 P 3600 5200
 F 0 "C21" V 3500 5200 50  0000 C CNN
 F 1 "4μ7" V 3700 5200 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 3600 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_no_lines" H 3600 5200 50  0001 C CNN
 F 3 "~" H 3600 5200 50  0001 C CNN
 F 4 "TAJA475K010RNJ" V 3600 5200 50  0001 C CNN "Mfr. No"
 	1    3600 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C22
+L Device:C_Small C22
 U 1 1 5D2445A7
 P 3900 5200
 F 0 "C22" V 3800 5200 50  0000 C CNN
 F 1 "0.1μ" V 4000 5200 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 3900 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_no_lines" H 3900 5200 50  0001 C CNN
 F 3 "~" H 3900 5200 50  0001 C CNN
 	1    3900 5200
 	1    0    0    -1  
@@ -611,24 +611,24 @@ F 3 "" H 3750 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C23
+L Device:C_Small C23
 U 1 1 5D24F758
 P 4250 5200
 F 0 "C23" V 4150 5200 50  0000 C CNN
 F 1 "4μ7" V 4350 5200 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 4250 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_no_lines" H 4250 5200 50  0001 C CNN
 F 3 "~" H 4250 5200 50  0001 C CNN
 F 4 "TAJA475K010RNJ" V 4250 5200 50  0001 C CNN "Mfr. No"
 	1    4250 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C24
+L Device:C_Small C24
 U 1 1 5D24F75E
 P 4550 5200
 F 0 "C24" V 4450 5200 50  0000 C CNN
 F 1 "0.1μ" V 4650 5200 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 4550 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_no_lines" H 4550 5200 50  0001 C CNN
 F 3 "~" H 4550 5200 50  0001 C CNN
 	1    4550 5200
 	1    0    0    -1  
