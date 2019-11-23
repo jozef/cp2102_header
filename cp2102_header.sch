@@ -316,9 +316,9 @@ F 3 "" H 6800 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 4200 6300 4200
+	6450 4200 6400 4200
 Wire Wire Line
-	6450 4300 6300 4300
+	6450 4300 6400 4300
 $Comp
 L Device:R_Small R34
 U 1 1 5D22B5C4
@@ -802,21 +802,6 @@ F 3 "~" V 6200 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R24
-U 1 1 5D8A33CF
-P 6550 3850
-F 0 "R24" V 6650 3850 50  0000 C CNN
-F 1 "1k" V 6550 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6550 3850 50  0001 C CNN
-F 3 "~" H 6550 3850 50  0001 C CNN
-	1    6550 3850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6650 3850 6700 3850
-Wire Wire Line
-	6450 3850 6300 3850
-$Comp
 L Device:LED_Small D23
 U 1 1 5D8A6C30
 P 6200 4650
@@ -827,27 +812,6 @@ F 3 "~" V 6200 4650 50  0001 C CNN
 	1    6200 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R23
-U 1 1 5D8A6C36
-P 6550 4650
-F 0 "R23" V 6450 4650 50  0000 C CNN
-F 1 "1k" V 6550 4650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6550 4650 50  0001 C CNN
-F 3 "~" H 6550 4650 50  0001 C CNN
-	1    6550 4650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6700 4650 6650 4650
-Wire Wire Line
-	6450 4650 6300 4650
-Wire Wire Line
-	6700 4650 6700 4300
-Connection ~ 6700 4300
-Wire Wire Line
-	6700 4200 6700 3850
-Connection ~ 6700 4200
 Wire Wire Line
 	6100 3850 6050 3850
 Wire Wire Line
@@ -877,4 +841,18 @@ Wire Wire Line
 Connection ~ 3650 3700
 Wire Wire Line
 	3650 3700 3650 3900
+Wire Wire Line
+	6400 3850 6400 4200
+Wire Wire Line
+	6400 3850 6300 3850
+Connection ~ 6400 4200
+Wire Wire Line
+	6400 4200 6300 4200
+Wire Wire Line
+	6400 4300 6400 4650
+Connection ~ 6400 4300
+Wire Wire Line
+	6400 4300 6300 4300
+Wire Wire Line
+	6400 4650 6300 4650
 $EndSCHEMATC
