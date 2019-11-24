@@ -31,7 +31,7 @@ U 1 1 5D1E5F3E
 P 1150 3550
 F 0 "J1" H 1122 3430 50  0000 R CNN
 F 1 "FTDI" H 1122 3521 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1150 3550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_no_lines" H 1150 3550 50  0001 C CNN
 F 3 "~" H 1150 3550 50  0001 C CNN
 	1    1150 3550
 	1    0    0    1   
@@ -63,7 +63,7 @@ U 1 1 5D1E7A29
 P 4250 3100
 F 0 "R2" V 4150 3100 50  0000 C CNN
 F 1 "1k" V 4250 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4250 3100 50  0001 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 4250 3100 50  0001 C CNN
 F 3 "~" H 4250 3100 50  0001 C CNN
 	1    4250 3100
 	0    1    1    0   
@@ -89,7 +89,7 @@ U 1 1 5D1F630A
 P 3300 4100
 F 0 "J2" H 3355 4567 50  0000 C CNN
 F 1 "USB_B_Micro" H 3355 4476 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521_plus_Pitch_7.2mm" H 3450 4050 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521_plus_Pitch_7.2mm_doubleside" H 3450 4050 50  0001 C CNN
 F 3 "~" H 3450 4050 50  0001 C CNN
 	1    3300 4100
 	1    0    0    -1  
@@ -161,7 +161,7 @@ U 1 1 5D218D5A
 P 8400 3100
 F 0 "R31" V 8300 3100 50  0000 C CNN
 F 1 "10k" V 8400 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8400 3100 50  0001 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8400 3100 50  0001 C CNN
 F 3 "~" H 8400 3100 50  0001 C CNN
 	1    8400 3100
 	-1   0    0    1   
@@ -172,7 +172,7 @@ U 1 1 5D21A10E
 P 8700 3150
 F 0 "Q3" V 9075 3150 50  0000 C CNN
 F 1 "BSS138PS" V 8984 3150 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7350 3075 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD (GitHub):SOT-363_SC-70-6_dot" H 7350 3075 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" H 8750 3150 50  0001 L CNN
 	1    8700 3150
 	0    1    -1   0   
@@ -183,7 +183,7 @@ U 2 1 5D21A202
 P 8700 3750
 F 0 "Q3" V 9075 3750 50  0000 C CNN
 F 1 "BSS138PS" V 8984 3750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7350 3675 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD (GitHub):SOT-363_SC-70-6_dot" H 7350 3675 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" H 8750 3750 50  0001 L CNN
 	2    8700 3750
 	0    1    -1   0   
@@ -194,7 +194,7 @@ U 1 1 5D21A336
 P 9000 3100
 F 0 "R36" V 8900 3100 50  0000 C CNN
 F 1 "10k" V 9000 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 3100 50  0001 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 9000 3100 50  0001 C CNN
 F 3 "~" H 9000 3100 50  0001 C CNN
 	1    9000 3100
 	-1   0    0    1   
@@ -275,7 +275,7 @@ U 1 1 5D225B94
 P 6550 4300
 F 0 "R21" V 6450 4300 50  0000 C CNN
 F 1 "1k" V 6550 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6550 4300 50  0001 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 6550 4300 50  0001 C CNN
 F 3 "~" H 6550 4300 50  0001 C CNN
 	1    6550 4300
 	0    -1   -1   0   
@@ -286,7 +286,7 @@ U 1 1 5D225C1B
 P 6550 4200
 F 0 "R22" V 6650 4200 50  0000 C CNN
 F 1 "1k" V 6550 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6550 4200 50  0001 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 6550 4200 50  0001 C CNN
 F 3 "~" H 6550 4200 50  0001 C CNN
 	1    6550 4200
 	0    -1   -1   0   
@@ -325,7 +325,7 @@ U 1 1 5D22B5C4
 P 8400 3700
 F 0 "R34" V 8300 3700 50  0000 C CNN
 F 1 "10k" V 8400 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8400 3700 50  0001 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8400 3700 50  0001 C CNN
 F 3 "~" H 8400 3700 50  0001 C CNN
 	1    8400 3700
 	-1   0    0    1   
@@ -336,7 +336,7 @@ U 1 1 5D22B5D0
 P 9000 3700
 F 0 "R33" V 8900 3700 50  0000 C CNN
 F 1 "10k" V 9000 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 3700 50  0001 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 9000 3700 50  0001 C CNN
 F 3 "~" H 9000 3700 50  0001 C CNN
 	1    9000 3700
 	-1   0    0    1   
@@ -373,136 +373,6 @@ Wire Wire Line
 	8400 3600 8500 3600
 Wire Wire Line
 	8300 3500 8300 3600
-$Comp
-L Device:R_Small R41
-U 1 1 5D22EE8D
-P 8400 4350
-F 0 "R41" V 8300 4350 50  0000 C CNN
-F 1 "10k" V 8400 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8400 4350 50  0001 C CNN
-F 3 "~" H 8400 4350 50  0001 C CNN
-	1    8400 4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transistor_FET:BSS138PS Q4
-U 1 1 5D22EE93
-P 8700 4400
-F 0 "Q4" V 9075 4400 50  0000 C CNN
-F 1 "BSS138PS" V 8984 4400 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7350 4325 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" H 8750 4400 50  0001 L CNN
-	1    8700 4400
-	0    1    -1   0   
-$EndComp
-$Comp
-L Transistor_FET:BSS138PS Q4
-U 2 1 5D22EE99
-P 8700 5000
-F 0 "Q4" V 9075 5000 50  0000 C CNN
-F 1 "BSS138PS" V 8984 5000 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7350 4925 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" H 8750 5000 50  0001 L CNN
-	2    8700 5000
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R_Small R46
-U 1 1 5D22EE9F
-P 9000 4350
-F 0 "R46" V 8900 4350 50  0000 C CNN
-F 1 "10k" V 9000 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 4350 50  0001 C CNN
-F 3 "~" H 9000 4350 50  0001 C CNN
-	1    9000 4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR0108
-U 1 1 5D22EEA5
-P 8300 4150
-F 0 "#PWR0108" H 8300 4000 50  0001 C CNN
-F 1 "+3.3V" H 8315 4323 50  0000 C CNN
-F 2 "" H 8300 4150 50  0001 C CNN
-F 3 "" H 8300 4150 50  0001 C CNN
-	1    8300 4150
-	1    0    0    -1  
-$EndComp
-Text GLabel 9000 4150 1    50   Input ~ 0
-VIO
-Wire Wire Line
-	9000 4250 9000 4150
-Wire Wire Line
-	8900 4450 9000 4450
-Connection ~ 9000 4450
-Wire Wire Line
-	9000 4450 9150 4450
-Wire Wire Line
-	8500 4450 8400 4450
-Connection ~ 8400 4450
-Wire Wire Line
-	8400 4450 8200 4450
-Wire Wire Line
-	8300 4250 8400 4250
-Connection ~ 8400 4250
-Wire Wire Line
-	8400 4250 8500 4250
-Wire Wire Line
-	8300 4150 8300 4250
-$Comp
-L Device:R_Small R44
-U 1 1 5D22EEB7
-P 8400 4950
-F 0 "R44" V 8300 4950 50  0000 C CNN
-F 1 "10k" V 8400 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8400 4950 50  0001 C CNN
-F 3 "~" H 8400 4950 50  0001 C CNN
-	1    8400 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R43
-U 1 1 5D22EEBD
-P 9000 4950
-F 0 "R43" V 8900 4950 50  0000 C CNN
-F 1 "10k" V 9000 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 4950 50  0001 C CNN
-F 3 "~" H 9000 4950 50  0001 C CNN
-	1    9000 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR0109
-U 1 1 5D22EEC3
-P 8300 4750
-F 0 "#PWR0109" H 8300 4600 50  0001 C CNN
-F 1 "+3.3V" H 8315 4923 50  0000 C CNN
-F 2 "" H 8300 4750 50  0001 C CNN
-F 3 "" H 8300 4750 50  0001 C CNN
-	1    8300 4750
-	1    0    0    -1  
-$EndComp
-Text GLabel 9000 4750 1    50   Input ~ 0
-VIO
-Wire Wire Line
-	9000 4850 9000 4750
-Wire Wire Line
-	8900 5050 9000 5050
-Connection ~ 9000 5050
-Wire Wire Line
-	9000 5050 9150 5050
-Wire Wire Line
-	8500 5050 8400 5050
-Connection ~ 8400 5050
-Wire Wire Line
-	8400 5050 8200 5050
-Wire Wire Line
-	8300 4850 8400 4850
-Connection ~ 8400 4850
-Wire Wire Line
-	8400 4850 8500 4850
-Wire Wire Line
-	8300 4750 8300 4850
 Text GLabel 8200 4450 0    50   Input ~ 0
 U_CTS
 Text GLabel 8200 5050 0    50   Input ~ 0
@@ -549,7 +419,7 @@ U 1 1 5D23E753
 P 3600 5200
 F 0 "C21" V 3500 5200 50  0000 C CNN
 F 1 "4μ7" V 3700 5200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_no_lines" H 3600 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_no_lines" H 3600 5200 50  0001 C CNN
 F 3 "~" H 3600 5200 50  0001 C CNN
 F 4 "TAJA475K010RNJ" V 3600 5200 50  0001 C CNN "Mfr. No"
 	1    3600 5200
@@ -561,7 +431,7 @@ U 1 1 5D2445A7
 P 3900 5200
 F 0 "C22" V 3800 5200 50  0000 C CNN
 F 1 "0.1μ" V 4000 5200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_no_lines" H 3900 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_no_lines" H 3900 5200 50  0001 C CNN
 F 3 "~" H 3900 5200 50  0001 C CNN
 	1    3900 5200
 	1    0    0    -1  
@@ -616,7 +486,7 @@ U 1 1 5D24F758
 P 4250 5200
 F 0 "C23" V 4150 5200 50  0000 C CNN
 F 1 "4μ7" V 4350 5200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_no_lines" H 4250 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_no_lines" H 4250 5200 50  0001 C CNN
 F 3 "~" H 4250 5200 50  0001 C CNN
 F 4 "TAJA475K010RNJ" V 4250 5200 50  0001 C CNN "Mfr. No"
 	1    4250 5200
@@ -628,7 +498,7 @@ U 1 1 5D24F75E
 P 4550 5200
 F 0 "C24" V 4450 5200 50  0000 C CNN
 F 1 "0.1μ" V 4650 5200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_no_lines" H 4550 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_no_lines" H 4550 5200 50  0001 C CNN
 F 3 "~" H 4550 5200 50  0001 C CNN
 	1    4550 5200
 	1    0    0    -1  
@@ -715,7 +585,7 @@ U 1 1 5D424CE0
 P 6600 2150
 F 0 "JP9" V 6646 2218 50  0000 L CNN
 F 1 "SJMP" V 6555 2218 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6600 2150 50  0001 C CNN
+F 2 "Jumper (GitHub):SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_no_arrow" H 6600 2150 50  0001 C CNN
 F 3 "~" H 6600 2150 50  0001 C CNN
 	1    6600 2150
 	0    -1   -1   0   
@@ -729,48 +599,12 @@ Wire Wire Line
 Wire Wire Line
 	6750 2150 7000 2150
 $Comp
-L Connector:USB_B_Micro J22
-U 1 1 5D82E0EF
-P 2600 4100
-F 0 "J22" H 2655 4567 50  0000 C CNN
-F 1 "USB_B_Micro" H 2655 4476 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521_plus_Pitch_7.2mm_no_tht" H 2750 4050 50  0001 C CNN
-F 3 "~" H 2750 4050 50  0001 C CNN
-	1    2600 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 3900 3000 3900
-Wire Wire Line
-	3000 3900 3000 3550
-Wire Wire Line
-	3000 3550 3650 3550
-Wire Wire Line
-	2500 4500 2500 4650
-Wire Wire Line
-	2500 4650 2600 4650
-Connection ~ 3200 4650
-Wire Wire Line
-	2600 4500 2600 4650
-Connection ~ 2600 4650
-Wire Wire Line
-	2600 4650 3200 4650
-NoConn ~ 2900 4300
-Text GLabel 3000 4100 1    50   Input ~ 0
-D+
-Text GLabel 3000 4200 3    50   Input ~ 0
-D-
-Wire Wire Line
-	2900 4100 3000 4100
-Wire Wire Line
-	2900 4200 3000 4200
-$Comp
 L Connector:Conn_01x01_Male J8
 U 1 1 5D76F0B4
 P 2900 2250
 F 0 "J8" H 3006 2428 50  0000 C CNN
 F 1 "mount" H 3006 2337 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2900 2250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical_no_lines" H 2900 2250 50  0001 C CNN
 F 3 "~" H 2900 2250 50  0001 C CNN
 	1    2900 2250
 	1    0    0    -1  
@@ -833,12 +667,9 @@ Wire Wire Line
 	4150 3700 4400 3700
 Wire Wire Line
 	4150 3700 4000 3700
-Wire Wire Line
-	3650 3550 3650 3700
 Connection ~ 4150 3700
 Wire Wire Line
 	3800 3700 3650 3700
-Connection ~ 3650 3700
 Wire Wire Line
 	3650 3700 3650 3900
 Wire Wire Line
@@ -855,4 +686,8 @@ Wire Wire Line
 	6400 4300 6300 4300
 Wire Wire Line
 	6400 4650 6300 4650
+Wire Wire Line
+	8200 5050 9150 5050
+Wire Wire Line
+	8200 4450 9150 4450
 $EndSCHEMATC
