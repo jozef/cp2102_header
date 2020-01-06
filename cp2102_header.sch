@@ -28,34 +28,34 @@ $EndComp
 $Comp
 L Connector:Conn_01x06_Male J1
 U 1 1 5D1E5F3E
-P 1150 3550
-F 0 "J1" H 1122 3430 50  0000 R CNN
-F 1 "FTDI" H 1122 3521 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_no_lines" H 1150 3550 50  0001 C CNN
-F 3 "~" H 1150 3550 50  0001 C CNN
-	1    1150 3550
+P 3100 2150
+F 0 "J1" H 3072 2030 50  0000 R CNN
+F 1 "FTDI" H 3072 2121 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_no_lines" H 3100 2150 50  0001 C CNN
+F 3 "~" H 3100 2150 50  0001 C CNN
+	1    3100 2150
 	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5D1E605A
-P 1550 3850
-F 0 "#PWR0101" H 1550 3600 50  0001 C CNN
-F 1 "GND" H 1555 3677 50  0000 C CNN
-F 2 "" H 1550 3850 50  0001 C CNN
-F 3 "" H 1550 3850 50  0001 C CNN
-	1    1550 3850
+P 3500 2450
+F 0 "#PWR0101" H 3500 2200 50  0001 C CNN
+F 1 "GND" H 3505 2277 50  0000 C CNN
+F 2 "" H 3500 2450 50  0001 C CNN
+F 3 "" H 3500 2450 50  0001 C CNN
+	1    3500 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 3650 2    50   Input ~ 0
+Text GLabel 3300 2250 2    50   Input ~ 0
 CTS
-Text GLabel 1350 3550 2    50   Input ~ 0
+Text GLabel 3300 2150 2    50   Input ~ 0
 VIO
-Text GLabel 1350 3450 2    50   Input ~ 0
+Text GLabel 3300 2050 2    50   Input ~ 0
 TXD
-Text GLabel 1350 3350 2    50   Input ~ 0
+Text GLabel 3300 1950 2    50   Input ~ 0
 RXD
-Text GLabel 1350 3250 2    50   Input ~ 0
+Text GLabel 3300 1850 2    50   Input ~ 0
 DTR
 $Comp
 L Device:R_Small R2
@@ -158,58 +158,58 @@ NoConn ~ 3600 4300
 $Comp
 L Transistor_FET:BSS138PS Q3
 U 1 1 5D21A10E
-P 8700 3150
-F 0 "Q3" V 9075 3150 50  0000 C CNN
-F 1 "BSS138PS" V 8984 3150 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD (GitHub):SOT-363_SC-70-6_dot" H 7350 3075 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" H 8750 3150 50  0001 L CNN
-	1    8700 3150
+P 7850 3150
+F 0 "Q3" V 8225 3150 50  0000 C CNN
+F 1 "BSS138PS" V 8134 3150 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD (GitHub):SOT-363_SC-70-6_dot" H 6500 3075 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" H 7900 3150 50  0001 L CNN
+	1    7850 3150
 	0    1    -1   0   
 $EndComp
 $Comp
 L Transistor_FET:BSS138PS Q3
 U 2 1 5D21A202
-P 8700 3750
-F 0 "Q3" V 9075 3750 50  0000 C CNN
-F 1 "BSS138PS" V 8984 3750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD (GitHub):SOT-363_SC-70-6_dot" H 7350 3675 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" H 8750 3750 50  0001 L CNN
-	2    8700 3750
+P 7850 3750
+F 0 "Q3" V 8225 3750 50  0000 C CNN
+F 1 "BSS138PS" V 8134 3750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD (GitHub):SOT-363_SC-70-6_dot" H 6500 3675 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" H 7900 3750 50  0001 L CNN
+	2    7850 3750
 	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small R36
 U 1 1 5D21A336
-P 9000 3100
-F 0 "R36" V 8900 3100 50  0000 C CNN
-F 1 "10k" V 9000 3100 50  0000 C CNN
-F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 9000 3100 50  0001 C CNN
-F 3 "~" H 9000 3100 50  0001 C CNN
-	1    9000 3100
+P 8150 3100
+F 0 "R36" V 8050 3100 50  0000 C CNN
+F 1 "10k" V 8150 3100 50  0000 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8150 3100 50  0001 C CNN
+F 3 "~" H 8150 3100 50  0001 C CNN
+	1    8150 3100
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3.3V #PWR0105
 U 1 1 5D21A388
-P 8300 2900
-F 0 "#PWR0105" H 8300 2750 50  0001 C CNN
-F 1 "+3.3V" H 8315 3073 50  0000 C CNN
-F 2 "" H 8300 2900 50  0001 C CNN
-F 3 "" H 8300 2900 50  0001 C CNN
-	1    8300 2900
+P 7450 2900
+F 0 "#PWR0105" H 7450 2750 50  0001 C CNN
+F 1 "+3.3V" H 7465 3073 50  0000 C CNN
+F 2 "" H 7450 2900 50  0001 C CNN
+F 3 "" H 7450 2900 50  0001 C CNN
+	1    7450 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel 9000 2900 1    50   Input ~ 0
+Text GLabel 8150 2900 1    50   Input ~ 0
 VIO
 Wire Wire Line
-	9000 3000 9000 2900
+	8150 3000 8150 2900
 Wire Wire Line
-	8900 3200 9000 3200
-Connection ~ 9000 3200
+	8050 3200 8150 3200
+Connection ~ 8150 3200
 Wire Wire Line
-	9000 3200 9150 3200
+	8150 3200 8300 3200
 Wire Wire Line
-	8300 2900 8300 3000
+	7450 2900 7450 3000
 Text GLabel 5650 3500 2    50   Input ~ 0
 U_TXD
 Text GLabel 5650 3400 2    50   Input ~ 0
@@ -301,51 +301,51 @@ Wire Wire Line
 $Comp
 L Device:R_Small R33
 U 1 1 5D22B5D0
-P 9000 3700
-F 0 "R33" V 8900 3700 50  0000 C CNN
-F 1 "10k" V 9000 3700 50  0000 C CNN
-F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 9000 3700 50  0001 C CNN
-F 3 "~" H 9000 3700 50  0001 C CNN
-	1    9000 3700
+P 8150 3700
+F 0 "R33" V 8050 3700 50  0000 C CNN
+F 1 "10k" V 8150 3700 50  0000 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8150 3700 50  0001 C CNN
+F 3 "~" H 8150 3700 50  0001 C CNN
+	1    8150 3700
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3.3V #PWR0107
 U 1 1 5D22B5D6
-P 8300 3500
-F 0 "#PWR0107" H 8300 3350 50  0001 C CNN
-F 1 "+3.3V" H 8315 3673 50  0000 C CNN
-F 2 "" H 8300 3500 50  0001 C CNN
-F 3 "" H 8300 3500 50  0001 C CNN
-	1    8300 3500
+P 7450 3500
+F 0 "#PWR0107" H 7450 3350 50  0001 C CNN
+F 1 "+3.3V" H 7465 3673 50  0000 C CNN
+F 2 "" H 7450 3500 50  0001 C CNN
+F 3 "" H 7450 3500 50  0001 C CNN
+	1    7450 3500
 	1    0    0    -1  
 $EndComp
-Text GLabel 9000 3500 1    50   Input ~ 0
+Text GLabel 8150 3500 1    50   Input ~ 0
 VIO
 Wire Wire Line
-	9000 3600 9000 3500
+	8150 3600 8150 3500
 Wire Wire Line
-	8900 3800 9000 3800
-Connection ~ 9000 3800
+	8050 3800 8150 3800
+Connection ~ 8150 3800
 Wire Wire Line
-	9000 3800 9150 3800
+	8150 3800 8300 3800
 Wire Wire Line
-	8300 3500 8300 3600
-Text GLabel 8200 4450 0    50   Input ~ 0
+	7450 3500 7450 3600
+Text GLabel 7350 4450 0    50   Input ~ 0
 U_CTS
-Text GLabel 8200 5050 0    50   Input ~ 0
+Text GLabel 7350 5050 0    50   Input ~ 0
 U_RXD
-Text GLabel 8200 3200 0    50   Input ~ 0
+Text GLabel 7350 3200 0    50   Input ~ 0
 U_TXD
-Text GLabel 8200 3800 0    50   Input ~ 0
+Text GLabel 7350 3800 0    50   Input ~ 0
 U_DTR
-Text GLabel 9150 4450 2    50   Input ~ 0
+Text GLabel 8300 4450 2    50   Input ~ 0
 CTS
-Text GLabel 9150 3800 2    50   Input ~ 0
+Text GLabel 8300 3800 2    50   Input ~ 0
 DTR
-Text GLabel 9150 5050 2    50   Input ~ 0
+Text GLabel 8300 5050 2    50   Input ~ 0
 RXD
-Text GLabel 9150 3200 2    50   Input ~ 0
+Text GLabel 8300 3200 2    50   Input ~ 0
 TXD
 Text GLabel 7000 2150 2    50   Input ~ 0
 VIO
@@ -506,7 +506,7 @@ F 3 "" H 4400 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 3750 1550 3850
+	3500 2350 3500 2450
 Text GLabel 3750 4200 3    50   Input ~ 0
 D-
 Text GLabel 3750 4100 1    50   Input ~ 0
@@ -518,7 +518,7 @@ RXL
 Text GLabel 5800 4300 3    50   Input ~ 0
 TXL
 Wire Wire Line
-	1350 3750 1550 3750
+	3300 2350 3500 2350
 Wire Wire Line
 	3650 3900 3600 3900
 $Comp
@@ -559,23 +559,23 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Male J8
 U 1 1 5D76F0B4
-P 2900 2250
-F 0 "J8" H 3006 2428 50  0000 C CNN
-F 1 "mount" H 3006 2337 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical_no_lines" H 2900 2250 50  0001 C CNN
-F 3 "~" H 2900 2250 50  0001 C CNN
-	1    2900 2250
+P 3100 3000
+F 0 "J8" H 3206 3178 50  0000 C CNN
+F 1 "mount" H 3206 3087 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical_no_lines" H 3100 3000 50  0001 C CNN
+F 3 "~" H 3100 3000 50  0001 C CNN
+	1    3100 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5D76F791
-P 3100 2250
-F 0 "#PWR0116" H 3100 2000 50  0001 C CNN
-F 1 "GND" H 3105 2077 50  0000 C CNN
-F 2 "" H 3100 2250 50  0001 C CNN
-F 3 "" H 3100 2250 50  0001 C CNN
-	1    3100 2250
+P 3500 3100
+F 0 "#PWR0116" H 3500 2850 50  0001 C CNN
+F 1 "GND" H 3505 2927 50  0000 C CNN
+F 2 "" H 3500 3100 50  0001 C CNN
+F 3 "" H 3500 3100 50  0001 C CNN
+	1    3500 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -645,15 +645,19 @@ Wire Wire Line
 Wire Wire Line
 	6400 4650 6300 4650
 Wire Wire Line
-	8200 5050 9150 5050
+	7350 5050 8300 5050
 Wire Wire Line
-	8200 4450 9150 4450
+	7350 4450 8300 4450
 Wire Wire Line
-	8200 3200 8500 3200
+	7350 3200 7650 3200
 Wire Wire Line
-	8300 3000 8500 3000
+	7450 3000 7650 3000
 Wire Wire Line
-	8200 3800 8500 3800
+	7350 3800 7650 3800
 Wire Wire Line
-	8300 3600 8500 3600
+	7450 3600 7650 3600
+Wire Wire Line
+	3300 3000 3500 3000
+Wire Wire Line
+	3500 3000 3500 3100
 $EndSCHEMATC
