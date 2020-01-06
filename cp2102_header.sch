@@ -156,17 +156,6 @@ Wire Wire Line
 Connection ~ 5050 4650
 NoConn ~ 3600 4300
 $Comp
-L Device:R_Small R31
-U 1 1 5D218D5A
-P 8400 3100
-F 0 "R31" V 8300 3100 50  0000 C CNN
-F 1 "10k" V 8400 3100 50  0000 C CNN
-F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8400 3100 50  0001 C CNN
-F 3 "~" H 8400 3100 50  0001 C CNN
-	1    8400 3100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Transistor_FET:BSS138PS Q3
 U 1 1 5D21A10E
 P 8700 3150
@@ -219,16 +208,6 @@ Wire Wire Line
 Connection ~ 9000 3200
 Wire Wire Line
 	9000 3200 9150 3200
-Wire Wire Line
-	8500 3200 8400 3200
-Connection ~ 8400 3200
-Wire Wire Line
-	8400 3200 8200 3200
-Wire Wire Line
-	8300 3000 8400 3000
-Connection ~ 8400 3000
-Wire Wire Line
-	8400 3000 8500 3000
 Wire Wire Line
 	8300 2900 8300 3000
 Text GLabel 5650 3500 2    50   Input ~ 0
@@ -320,17 +299,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 4300 6400 4300
 $Comp
-L Device:R_Small R34
-U 1 1 5D22B5C4
-P 8400 3700
-F 0 "R34" V 8300 3700 50  0000 C CNN
-F 1 "10k" V 8400 3700 50  0000 C CNN
-F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8400 3700 50  0001 C CNN
-F 3 "~" H 8400 3700 50  0001 C CNN
-	1    8400 3700
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R_Small R33
 U 1 1 5D22B5D0
 P 9000 3700
@@ -361,16 +329,6 @@ Wire Wire Line
 Connection ~ 9000 3800
 Wire Wire Line
 	9000 3800 9150 3800
-Wire Wire Line
-	8500 3800 8400 3800
-Connection ~ 8400 3800
-Wire Wire Line
-	8400 3800 8200 3800
-Wire Wire Line
-	8300 3600 8400 3600
-Connection ~ 8400 3600
-Wire Wire Line
-	8400 3600 8500 3600
 Wire Wire Line
 	8300 3500 8300 3600
 Text GLabel 8200 4450 0    50   Input ~ 0
@@ -690,4 +648,12 @@ Wire Wire Line
 	8200 5050 9150 5050
 Wire Wire Line
 	8200 4450 9150 4450
+Wire Wire Line
+	8200 3200 8500 3200
+Wire Wire Line
+	8300 3000 8500 3000
+Wire Wire Line
+	8200 3800 8500 3800
+Wire Wire Line
+	8300 3600 8500 3600
 $EndSCHEMATC
