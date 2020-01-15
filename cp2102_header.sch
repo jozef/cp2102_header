@@ -95,9 +95,9 @@ F 3 "~" H 3450 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 4100 4450 4100
+	3600 4100 3900 4100
 Wire Wire Line
-	3600 4200 4450 4200
+	3600 4200 3900 4200
 Wire Wire Line
 	4450 4000 4400 4000
 Wire Wire Line
@@ -180,12 +180,12 @@ $EndComp
 $Comp
 L Device:R_Small R36
 U 1 1 5D21A336
-P 8150 3100
-F 0 "R36" V 8050 3100 50  0000 C CNN
-F 1 "10k" V 8150 3100 50  0000 C CNN
-F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8150 3100 50  0001 C CNN
-F 3 "~" H 8150 3100 50  0001 C CNN
-	1    8150 3100
+P 8750 3100
+F 0 "R36" V 8650 3100 50  0000 C CNN
+F 1 "10k" V 8750 3100 50  0000 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8750 3100 50  0001 C CNN
+F 3 "~" H 8750 3100 50  0001 C CNN
+	1    8750 3100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -199,15 +199,10 @@ F 3 "" H 7450 2900 50  0001 C CNN
 	1    7450 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel 8150 2900 1    50   Input ~ 0
+Text GLabel 8750 2900 1    50   Input ~ 0
 VIO
 Wire Wire Line
-	8150 3000 8150 2900
-Wire Wire Line
-	8050 3200 8150 3200
-Connection ~ 8150 3200
-Wire Wire Line
-	8150 3200 8300 3200
+	8750 3000 8750 2900
 Wire Wire Line
 	7450 2900 7450 3000
 Text GLabel 5650 3500 2    50   Input ~ 0
@@ -328,8 +323,6 @@ Wire Wire Line
 	8050 3800 8150 3800
 Connection ~ 8150 3800
 Wire Wire Line
-	8150 3800 8300 3800
-Wire Wire Line
 	7450 3500 7450 3600
 Text GLabel 7350 4450 0    50   Input ~ 0
 U_CTS
@@ -339,13 +332,13 @@ Text GLabel 7350 3200 0    50   Input ~ 0
 U_TXD
 Text GLabel 7350 3800 0    50   Input ~ 0
 U_DTR
-Text GLabel 8300 4450 2    50   Input ~ 0
+Text GLabel 8850 4450 2    50   Input ~ 0
 CTS
-Text GLabel 8300 3800 2    50   Input ~ 0
+Text GLabel 8850 3800 2    50   Input ~ 0
 DTR
-Text GLabel 8300 5050 2    50   Input ~ 0
+Text GLabel 8850 5050 2    50   Input ~ 0
 RXD
-Text GLabel 8300 3200 2    50   Input ~ 0
+Text GLabel 8850 3200 2    50   Input ~ 0
 TXD
 Text GLabel 7000 2150 2    50   Input ~ 0
 VIO
@@ -517,17 +510,6 @@ Wire Wire Line
 	3300 2350 3500 2350
 Wire Wire Line
 	3650 3900 3600 3900
-$Comp
-L Device:Polyfuse_Small F2
-U 1 1 5D2829E5
-P 3900 3700
-F 0 "F2" V 3695 3700 50  0000 C CNN
-F 1 ".25-.5A" V 3786 3700 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3950 3500 50  0001 L CNN
-F 3 "~" H 3900 3700 50  0001 C CNN
-	1    3900 3700
-	0    1    1    0   
-$EndComp
 Connection ~ 3300 4650
 Wire Wire Line
 	3200 4650 3300 4650
@@ -553,25 +535,25 @@ Wire Wire Line
 Wire Wire Line
 	6750 2150 7000 2150
 $Comp
-L Connector:Conn_01x01_Male J8
+L Connector:Conn_01x04_Male J8
 U 1 1 5D76F0B4
-P 3100 3000
-F 0 "J8" H 3206 3178 50  0000 C CNN
-F 1 "mount" H 3206 3087 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical_no_lines" H 3100 3000 50  0001 C CNN
-F 3 "~" H 3100 3000 50  0001 C CNN
-	1    3100 3000
+P 3100 3100
+F 0 "J8" H 3000 3100 50  0000 C CNN
+F 1 "mount" H 2950 3050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_no_lines" H 3100 3100 50  0001 C CNN
+F 3 "~" H 3100 3100 50  0001 C CNN
+	1    3100 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5D76F791
-P 3500 3100
-F 0 "#PWR0116" H 3500 2850 50  0001 C CNN
-F 1 "GND" H 3505 2927 50  0000 C CNN
-F 2 "" H 3500 3100 50  0001 C CNN
-F 3 "" H 3500 3100 50  0001 C CNN
-	1    3500 3100
+P 3700 3400
+F 0 "#PWR0116" H 3700 3150 50  0001 C CNN
+F 1 "GND" H 3705 3227 50  0000 C CNN
+F 2 "" H 3700 3400 50  0001 C CNN
+F 3 "" H 3700 3400 50  0001 C CNN
+	1    3700 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -619,11 +601,7 @@ Wire Wire Line
 	4400 3700 4400 4000
 Wire Wire Line
 	4150 3700 4400 3700
-Wire Wire Line
-	4150 3700 4000 3700
 Connection ~ 4150 3700
-Wire Wire Line
-	3800 3700 3650 3700
 Wire Wire Line
 	3650 3700 3650 3900
 Wire Wire Line
@@ -641,10 +619,6 @@ Wire Wire Line
 Wire Wire Line
 	6400 4650 6300 4650
 Wire Wire Line
-	7350 5050 8300 5050
-Wire Wire Line
-	7350 4450 8300 4450
-Wire Wire Line
 	7350 3200 7650 3200
 Wire Wire Line
 	7450 3000 7650 3000
@@ -652,8 +626,70 @@ Wire Wire Line
 	7350 3800 7650 3800
 Wire Wire Line
 	7450 3600 7650 3600
+Text GLabel 3300 3200 2    50   Input ~ 0
+RXD
+Text GLabel 3300 3100 2    50   Input ~ 0
+TXD
 Wire Wire Line
-	3300 3000 3500 3000
+	3300 3000 3700 3000
 Wire Wire Line
-	3500 3000 3500 3100
+	3650 3700 4150 3700
+Wire Wire Line
+	3700 3000 3700 3300
+Wire Wire Line
+	3300 3300 3700 3300
+Connection ~ 3700 3300
+Wire Wire Line
+	3700 3300 3700 3400
+Text GLabel 3900 4050 1    50   Input ~ 0
+D+
+Text GLabel 3900 4250 3    50   Input ~ 0
+D-
+Wire Wire Line
+	3900 4050 3900 4100
+Connection ~ 3900 4100
+Wire Wire Line
+	3900 4100 4450 4100
+Wire Wire Line
+	3900 4250 3900 4200
+Connection ~ 3900 4200
+Wire Wire Line
+	3900 4200 4450 4200
+$Comp
+L Device:R_Small R37
+U 1 1 5E1BDD48
+P 8600 3200
+F 0 "R37" V 8500 3200 50  0000 C CNN
+F 1 "330" V 8600 3200 50  0000 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8600 3200 50  0001 C CNN
+F 3 "~" H 8600 3200 50  0001 C CNN
+	1    8600 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R47
+U 1 1 5E1BDE9C
+P 8600 5050
+F 0 "R47" V 8500 5050 50  0000 C CNN
+F 1 "330" V 8600 5050 50  0000 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8600 5050 50  0001 C CNN
+F 3 "~" H 8600 5050 50  0001 C CNN
+	1    8600 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 5050 8500 5050
+Wire Wire Line
+	8700 5050 8850 5050
+Wire Wire Line
+	7350 4450 8850 4450
+Wire Wire Line
+	8150 3800 8850 3800
+Wire Wire Line
+	8700 3200 8750 3200
+Connection ~ 8750 3200
+Wire Wire Line
+	8750 3200 8850 3200
+Wire Wire Line
+	8050 3200 8500 3200
 $EndSCHEMATC
