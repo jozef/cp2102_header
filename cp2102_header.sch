@@ -296,12 +296,12 @@ Wire Wire Line
 $Comp
 L Device:R_Small R33
 U 1 1 5D22B5D0
-P 8150 3700
-F 0 "R33" V 8050 3700 50  0000 C CNN
-F 1 "10k" V 8150 3700 50  0000 C CNN
-F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8150 3700 50  0001 C CNN
-F 3 "~" H 8150 3700 50  0001 C CNN
-	1    8150 3700
+P 8500 3700
+F 0 "R33" V 8400 3700 50  0000 C CNN
+F 1 "10k" V 8500 3700 50  0000 C CNN
+F 2 "Resistor_SMD (GitHub):R_0603_1608Metric_no_lines" H 8500 3700 50  0001 C CNN
+F 3 "~" H 8500 3700 50  0001 C CNN
+	1    8500 3700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -315,13 +315,10 @@ F 3 "" H 7450 3500 50  0001 C CNN
 	1    7450 3500
 	1    0    0    -1  
 $EndComp
-Text GLabel 8150 3500 1    50   Input ~ 0
+Text GLabel 8500 3500 1    50   Input ~ 0
 VIO
 Wire Wire Line
-	8150 3600 8150 3500
-Wire Wire Line
-	8050 3800 8150 3800
-Connection ~ 8150 3800
+	8500 3600 8500 3500
 Wire Wire Line
 	7450 3500 7450 3600
 Text GLabel 7350 4450 0    50   Input ~ 0
@@ -671,8 +668,6 @@ $EndComp
 Wire Wire Line
 	7350 4450 8850 4450
 Wire Wire Line
-	8150 3800 8850 3800
-Wire Wire Line
 	8050 3200 8500 3200
 Wire Wire Line
 	8500 3200 8850 3200
@@ -740,4 +735,9 @@ Wire Wire Line
 Connection ~ 4200 1600
 Wire Wire Line
 	4200 1600 4200 1750
+Connection ~ 8500 3800
+Wire Wire Line
+	8500 3800 8850 3800
+Wire Wire Line
+	8050 3800 8500 3800
 $EndSCHEMATC
