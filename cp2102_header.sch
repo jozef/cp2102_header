@@ -103,16 +103,16 @@ Wire Wire Line
 Wire Wire Line
 	4400 3700 4450 3700
 Wire Wire Line
-	4150 3700 4150 3650
+	4200 3700 4200 3650
 $Comp
 L power:+5V #PWR0103
 U 1 1 5D1F7F22
-P 4150 3650
-F 0 "#PWR0103" H 4150 3500 50  0001 C CNN
-F 1 "+5V" H 4165 3823 50  0000 C CNN
-F 2 "" H 4150 3650 50  0001 C CNN
-F 3 "" H 4150 3650 50  0001 C CNN
-	1    4150 3650
+P 4200 3650
+F 0 "#PWR0103" H 4200 3500 50  0001 C CNN
+F 1 "+5V" H 4215 3823 50  0000 C CNN
+F 2 "" H 4200 3650 50  0001 C CNN
+F 3 "" H 4200 3650 50  0001 C CNN
+	1    4200 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -597,9 +597,6 @@ Connection ~ 4400 3700
 Wire Wire Line
 	4400 3700 4400 4000
 Wire Wire Line
-	4150 3700 4400 3700
-Connection ~ 4150 3700
-Wire Wire Line
 	3650 3700 3650 3900
 Wire Wire Line
 	6400 3850 6400 4200
@@ -627,8 +624,6 @@ Text GLabel 3950 1400 2    50   Input ~ 0
 RXD
 Text GLabel 3950 1300 2    50   Input ~ 0
 TXD
-Wire Wire Line
-	3650 3700 4150 3700
 Text GLabel 3900 4050 1    50   Input ~ 0
 D+
 Text GLabel 3900 4250 3    50   Input ~ 0
@@ -740,4 +735,47 @@ Wire Wire Line
 	8500 3800 8850 3800
 Wire Wire Line
 	8050 3800 8500 3800
+$Comp
+L Device:D_Small D12
+U 1 1 5ED3BE0F
+P 3900 3700
+F 0 "D12" H 3900 3495 50  0000 C CNN
+F 1 "D" H 3900 3586 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering_F_SilkS_Sym" V 3900 3700 50  0001 C CNN
+F 3 "~" V 3900 3700 50  0001 C CNN
+	1    3900 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 3700 4050 3700
+Wire Wire Line
+	3650 3700 3750 3700
+$Comp
+L Device:D_Small D11
+U 1 1 5ED4335F
+P 3900 3400
+F 0 "D11" H 3900 3195 50  0000 C CNN
+F 1 "D" H 3900 3286 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering_F_SilkS_Sym" V 3900 3400 50  0001 C CNN
+F 3 "~" V 3900 3400 50  0001 C CNN
+	1    3900 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 3400 4050 3400
+Wire Wire Line
+	4050 3400 4050 3700
+Connection ~ 4050 3700
+Wire Wire Line
+	3800 3400 3750 3400
+Wire Wire Line
+	3750 3400 3750 3700
+Connection ~ 3750 3700
+Wire Wire Line
+	3750 3700 3800 3700
+Wire Wire Line
+	4050 3700 4200 3700
+Connection ~ 4200 3700
+Wire Wire Line
+	4200 3700 4400 3700
 $EndSCHEMATC
