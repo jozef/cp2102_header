@@ -1126,7 +1126,7 @@
     )
   )
 
-  (gr_text 200131 (at 84.836 86.36 90) (layer B.SilkS) (tstamp 5E287B67)
+  (gr_text 201224 (at 84.836 86.36 90) (layer B.SilkS) (tstamp 5E287B67)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
   )
   (gr_text GND. (at 81.407 72.187952) (layer F.SilkS) (tstamp 5E293F55)
@@ -1175,7 +1175,7 @@
   (gr_line (start 87.122 81.28) (end 89.154 81.28) (layer F.SilkS) (width 0.2) (tstamp 5DEAB508))
   (gr_line (start 87.122 78.74) (end 89.154 78.74) (layer F.SilkS) (width 0.2) (tstamp 5DEAB506))
   (gr_line (start 87.122 76.2) (end 89.154 76.2) (layer F.SilkS) (width 0.2))
-  (gr_text 200131 (at 84.836 86.36 90) (layer F.SilkS) (tstamp 5DE7F34D)
+  (gr_text 201224 (at 84.836 86.36 90) (layer F.SilkS) (tstamp 5DE7F34D)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
   (gr_arc (start 80.01 92.71) (end 78.74 92.71) (angle -90) (layer Edge.Cuts) (width 0.15))
